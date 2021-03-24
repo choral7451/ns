@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(Image/배경.jpeg) no-repeat center;
+    background-size: cover;
+}
+body::before{
+    content: "";
+    position:absolute; z-index: 1;
+    top: 0; right: 0; left: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.login-form{position: relative; z-index: 2;}
+.login-form h1{
+    font-size: 45px; 
+    color: #fff;
+    text-decoration-color: black;
+    text-align: center;
+    margin-bottom: 80pxpx;
+    
+    
+}
+.int-area{
+    width: 500px; position: relative;
+    margin-top: 20px;
+}
+.int-area:first-child{margin-top: 0;}
+.int-area input{
+    width: 100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 18px; color: #fff;
+    outline: none;
+}
+.int-area label{
+    position: absolute; left: 10px; top: 15px;
+    font-size: 18px; color: #fff;
+    transition: all .5s ease;
+}
+.int-area input:focus + label,
+.int-area input:valid + label{
+    top: -2px;
+    font-size: 13px; color: purple;
+}
+.btn-area{margin-top: 30px;}
+.btn-area button{
+    width: 100%; height: 50px;
+    background: purple;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.caption{
+    margin-top: 20px;
+    text-align: center;
+}
+.caption a {
+    font-size: 15px; color: #fff;
+    text-decoration: none;
+}
+.logo {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background-color:transparent;
+
+}
