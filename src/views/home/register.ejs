@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewponint" content="width=device-width, initial-scale=1.8">
+   
+    <link rel="stylesheet" href="/css/home/register.css">
+    
+    <script src ="/js/home/register.js" defer></script> 
+    <title>NckScore</title>
+</head>
+<body>
+    <section class="login-form">
+        <h1>Nck Score</h1>
+        <form>
+
+<!-- 아이디 -->
+            <div class="int-area">
+                <input type="text" name="id" id="id" autocomplete="off" required>
+                <label for="id"><strong>USER NAME</strong></label>
+            </div>
+<!-- 이름 -->
+            <div class="int-area">    
+                <input type="password" name="name" id="name" autocomplete="off" required>
+                <label for="name"><strong>NAME</strong></label>
+            </div>
+<!-- 비밀번호 -->
+            <div class="int-area">    
+                <input type="password" name="pswrod" id="psword" autocomplete="off" required>
+                <label for="psword"><strong>PASSWORD</strong></label>
+            </div>
+<!-- 비밀번호 확인 -->
+            <div class="int-area">    
+                <input type="password" name="cpsword" id="cpsword" autocomplete="off" required>
+                <label for="cpsword"><strong>CONFIRM PASSWORD</strong></label>
+            </div>
+<!-- 연락처 -->
+            <div class="int-area">    
+                <input type="password" name="pn" id="pn" autocomplete="off" required>
+                <label for="pn"><strong>PHON NUMBER</strong></label>
+            </div>
+
+            <div class="btn-area">
+                <p id="button">SIGN UP</p>
+            </div>
+            <div class="caption">
+                <p>Already registered? <a href="/login"><strong>login</strong></a></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

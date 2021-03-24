@@ -23,13 +23,14 @@ body::before{
     color: #fff;
     text-decoration-color: black;
     text-align: center;
-    margin-bottom: 80pxpx;
+    margin-bottom: 100px;
     
     
 }
 .int-area{
     width: 500px; position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
+    
 }
 .int-area:first-child{margin-top: 0;}
 .int-area input{
@@ -52,7 +53,7 @@ body::before{
     font-size: 13px; color: purple;
 }
 .btn-area{margin-top: 30px;}
-.btn-area button{
+.btn-area #button{
     width: 100%; height: 50px;
     background: purple;
     font-size: 20px;
@@ -60,6 +61,7 @@ body::before{
     color: #fff;
     border-radius: 25px;
     cursor: pointer;
+    text-align: center;
 }
 .caption{
     margin-top: 20px;
@@ -68,10 +70,14 @@ body::before{
 .caption a {
     font-size: 15px; color: #fff;
 }
+
+.caption p {
+    font-size: 15px; color: #fff;
+    text-decoration: none;
+}
 .logo {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 70px;
     background-color:transparent;
-
 }
